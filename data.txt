@@ -1,0 +1,30 @@
+Player:
+	id
+	move direction
+	action/state
+	aim direction
+	status
+
+
+Enemies
+	id
+	action/state
+	move direction
+	target
+	status
+
+
+Room:
+	doors
+	props
+	enemies
+
+
+Dungeon:
+	...
+
+Props
+	type
+	content
+
+
